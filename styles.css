@@ -1,0 +1,70 @@
+body {
+	background-color: #333; /* Dark background color */
+	font-family: Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+  }
+  
+  .main {
+	display: block;
+	margin-top: 50px;
+	padding: 15px;
+	max-width: 500px;
+	background-color: #fff; /* White background color */
+	color: #333; /* Dark text color */
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	text-align: left;
+  }
+  
+  .btn-outline-secondary.btn-primary {
+	color: #fff;
+	background-color: #007bff; /* Blue button color */
+	border: none;
+  }
+  
+  .btn-outline-secondary.btn-primary:hover {
+	background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  #word {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 20px;
+	color: #007bff; /* Blue color */
+  }
+  
+  h4 {
+	color: #007bff; /* Blue color */
+	font-weight: bold;
+	margin-top: 20px;
+  }
+  
+  h6 {
+	margin-top: 5px;
+	color: #333; /* Dark text color */
+  }
+  
+  #audio {
+	width: 100%;
+	margin-top: 20px;
+  }
+  
+  a {
+	text-decoration: none;
+	color: #007bff; /* Blue link color */
+  }
+  
+  a:visited {
+	text-decoration: none;
+	color: #007bff; /* Blue visited link color */
+  }
+  
+  a:hover {
+	text-decoration: none;
+	font-weight: bold;
+  }
+  

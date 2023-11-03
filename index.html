@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="(unofficial) Google Dictionary API">
+        <meta name="author" content="Reboot13">
+	<title>Dictionary API - Reboot13</title>
+
+	<script type="text/javascript" src="back-end.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="icon" href="https://img.icons8.com/fluent/100/000000/book.png" type="image/icon type">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <center>
+        <div class="main">
+            <h3> Google Dictionary API</h3>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="input">
+                <button class="btn btn-outline-secondary btn-primary" onclick="Search()">Search</button>
+                <button class="btn btn-outline-secondary" onclick="location.reload()">Reset</button>
+            </div>
+
+            <h1 class="badge rounded-pill bg-primary" id="word" align="left">Loading....</h1>
+
+            <h4 style="color: #0d6efd!important; font-weight: bold;" align="left">Definition:</h4>
+            <h6 align="left" id="definition1"></h6>
+            <h6 align="left" id="definition2"></h6>
+            <h4 style="color: #0d6efd!important; font-weight: bold;" align="left">Synonyms:</h4>
+            <h6 align="left" id="synonyms"></h6>
+            <h4 style="color: #0d6efd!important; font-weight: bold;" align="left">Antonyms:</h4>
+            <h6 align="left" id="antonyms"></h6>
+
+            &nbsp;<br>
+            &nbsp;<br>
+            &nbsp;<br>
+
+            <audio controls id="audio">
+                <source type="audio/ogg">
+            </audio>
+        </div>
+    </center>
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=Uy0X6T10"></script>
+    &nbsp;<br>
+    &nbsp;<br>
+    &nbsp;<br>
+    <script src="back-end.js"></script>
+</body>
+</html>
